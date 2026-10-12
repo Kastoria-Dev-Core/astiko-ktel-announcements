@@ -1,0 +1,13 @@
+{
+  "name": "astiko-ktel-announcements",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily Vercel Cron that mirrors astikoktelkastorias.gr announcements into a JSON feed for the Astika KTEL Kastorias Android app.",
+  "scripts": {
+    "preview": "node scripts/preview.js"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.3"
+  }
+}
